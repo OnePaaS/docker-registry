@@ -8,6 +8,7 @@
 # Latest Ubuntu LTS
 FROM ubuntu:14.04
 
+ADD sources.list /etc/apt/
 # Update
 RUN apt-get update \
 # Install pip

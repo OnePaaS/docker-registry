@@ -372,3 +372,7 @@ Read [contributing](CONTRIBUTING.md)
 [SQLAlchemy]: http://docs.sqlalchemy.org/
 [create_engine]: http://docs.sqlalchemy.org/en/latest/core/engines.html#sqlalchemy.create_engine
 
+# History
+
+* 增加镜像的source.list
+* 在Dockerfile中加入ADD source.list /etc/apt/
