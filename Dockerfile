@@ -26,6 +26,7 @@ RUN apt-get update \
 
 COPY . /docker-registry
 COPY ./config/boto.cfg /etc/boto.cfg
+COPY ./pip.conf  /root/.pip/pip.conf
 
 # Install core
 RUN pip install /docker-registry/depends/docker-registry-core

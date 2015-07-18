@@ -376,3 +376,4 @@ Read [contributing](CONTRIBUTING.md)
 
 * 增加镜像的source.list
 * 在Dockerfile中加入ADD source.list /etc/apt/
+* 修改python 下载配置为豆瓣镜像
